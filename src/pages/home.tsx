@@ -1,5 +1,6 @@
 import heroImg1 from '../assets/img/hero-img-1.png';
 import heroImg2 from '../assets/img/hero-img-2.jpg';
+import { APP_NAME } from '../constants/appConfig';
 
 const Home = () => {
   return (
@@ -8,9 +9,9 @@ const Home = () => {
         <div className="container py-5">
           <div className="row g-5 align-items-center">
             <div className="col-md-12 col-lg-7">
-              <h4 className="mb-3 text-secondary">100% Organic Foods</h4>
+              <h4 className="mb-3 text-secondary">99.9% Reliable</h4>
               <h1 className="mb-5 display-3 text-primary">
-                Organic Veggies & Fruits Foods
+              Seamless Laundry, Effortless Living with {APP_NAME}
               </h1>
               <div className="position-relative mx-auto">
                 <input
